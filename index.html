@@ -10,7 +10,7 @@
       align-items: center;
       height: 100vh;
       margin: 0;
-      background-color: #f0f0f0;
+      background-color: #ffcccc; /* Cambiado a un tono de rojo más suave */
     }
     .mensaje {
       font-size: 3em;
@@ -21,12 +21,15 @@
     .mensaje:hover {
       text-decoration: underline; /* Subraya el texto al pasar sobre él */
     }
+    .italic {
+      font-style: italic; /* Estilo de fuente cursiva */
+    }
   </style>
 </head>
 <body>
   <div class="mensaje" onclick="window.location.href='https://youtu.be/Ajovl_4rgVE'">
     <p>Lávate el hoyo</p>
-<p>(no hagas click)</p>
+    <p class="italic">(no hagas click)</p> <!-- Aplicado estilo cursiva al texto -->
   </div>
 </body>
 </html>
